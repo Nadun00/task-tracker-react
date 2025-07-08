@@ -1,13 +1,15 @@
-const Header = ({ title }) => {
-  return (
-    <header>
+import React from "react"
+
+const Header = ({title}) => {
+  return( 
+  <header>
       <h1>{title}</h1>
-    </header>
-  );
-};
+  </header>
+  )
+}
 
 Header.defaultProps = {
   title: 'Task Tracker',
-};
+}
 
-export default Header;
+export default Header
