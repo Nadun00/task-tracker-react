@@ -2,7 +2,7 @@ import React from "react"
 
 const Header = ({title ='Task Tracker'}) => {
   return( 
-  <header style= {{ backgroundColor: 'lightblue', padding: '20px' }}>
+  <header >
       <h1>{title}</h1>
   </header>
   );
